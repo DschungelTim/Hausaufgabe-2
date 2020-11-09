@@ -1,0 +1,119 @@
+<!doctype html>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <title>Hausaufgabe 2 - Effekte</title>
+    </head>
+    <body>
+
+        <button id = "Playtaste" >Play</button>
+
+        <div class = "ESlider" id="GainContainer"> Gain
+          <input type="range" min="0" max="500" value="100" class="slider" id="GainSlider">
+          <span id = "GainOutput"> 1 dB </span>
+        </div>
+
+        <div class = "ESlider" id="PanContainer"> Panning
+          <input type="range" min="-10" max="10" value="0" class="slider" id="PanSlider">
+          <span id = "PanOutput"> 1  </span>
+        </div>
+
+        <div class = "ESlider" id="DelayContainer"> Delay
+          <input type="range" min="0" max="200" value="0" class="slider" id="DelaySlider">
+          <span id = "DelayOutput"> 0 sec </span>
+        </div>
+
+        <div class = "ESlider" id="DisContainer"> Distortion
+          <input type="range" min="0" max="100" value="0" class="slider" id="DisSlider">
+          <span id = "DisOutput"> 1 </span>
+        </div>
+
+        <div id ="auswahlcontainer">
+        <form>
+          <label>Reverb</label>
+          <select id="ReverbAuswahl">
+            <option value="room">Room</option>
+            <option value="church">Church</option>
+            <option value="cave">Cave</option>
+            <option value="garage">Garage</option>
+          </select>
+          </form>
+        </div>
+        <div id = turnonbuttoncontainer><button id = "turnonbutton">Turn On</button></div>
+
+        <br>
+        <div>Compressor</div>
+        <br>
+
+        <div class = "CSlider" id="ThresholdContainer"> Threshold
+            <input type="range" min="-100" max="0" value="-24" class="slider" id="ThresholdSlider">
+            <span id = "ThresholdOutput"> -24 dB </span>
+          </div>
+
+        <div class = "CSlider" id="RatioContainer"> Ratio
+            <input type="range" min="1" max="20" value="12" class="slider" id="RatioSlider">
+            <span id = "RatioOutput"> 12 </span>
+          </div>  
+
+        <div class = "CSlider" id="KneeContainer"> Knee
+            <input type="range" min="0" max="40" value="30" class="slider" id="KneeSlider">
+            <span id = "KneeOutput"> 30  </span>
+          </div>
+
+        <div class = "CSlider" id="AttackContainer"> Attack
+            <input type="range" min="0" max="1000" value="3" class="slider" id="AttackSlider">
+            <span id = "AttackOutput"> 3 ms </span>
+          </div>
+
+        <div class = "CSlider" id="ReleaseContainer"> Release
+            <input type="range" min="0" max="1000" value="250" class="slider" id="ReleaseSlider">
+            <span id = "ReleaseOutput"> 250 ms </span>
+          </div>
+       
+          <br>
+          <div>Filter</div>
+          <br>
+
+          <div class = "FSlider" id="FreqContainer"> Frequency
+            <input type="range" min="100" max="2000" value="1000" class="slider" id="FreqSlider">
+            <span id = "FreqOutput"> 1000 Hz </span>
+          </div>
+  
+          <div class = "FSlider" id="DetuneContainer"> Detune
+            <input type="range" min="0" max="100" value="0" class="slider" id="DetuneSlider">
+            <span id = "DetuneOutput"> 0 HZ  </span>
+          </div>
+  
+          <div class = "FSlider" id="QualContainer"> Quality
+            <input type="range" min="1" max="10" value="1" class="slider" id="QualSlider">
+            <span id = "QualOutput"> 1 </span>
+          </div>
+  
+          <div class = "FSlider" id="FGainContainer"> Gain
+            <input type="range" min="-40" max="40" value="0" class="slider" id="FGainSlider">
+            <span id = "FGainOutput"> 0 dB </span>
+          </div>
+  
+          <div id ="filterauswahlcontainer">
+          <form>
+            <label>Type</label>
+            <select id="FilterAuswahl">
+              <option value="allpass">Allpass</option>
+              <option value="lowpass">Lowpass</option>
+              <option value="highpass">Highpass</option>
+              <option value="bandpass">Bandpass</option>
+              <option value="lowshelf">Lowshelf</option>
+              <option value="highshelf">Highshelf</option>
+              <option value="peaking">Peaking</option>
+              <option value="notch">Notch</option>
+            </select>
+            </form>
+          </div>
+
+
+        
+        
+        <script src="Hausaufgabe2.js"></script>
+
+    </body>
+</html>

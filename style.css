@@ -1,0 +1,122 @@
+html, body {
+    height: 100%;
+    width: 100%;
+    background: rgb(77, 164, 185);
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-size: 20px;
+    font-family: monospace;
+    padding: 0; margin: 0;
+}
+
+#Playtaste {
+    background: tomato;
+    padding: 0.4em;
+    font-size: 100px;
+    color: rgb(77, 164, 185);
+    width: 30%;
+    font-family: monospace; 
+}
+
+#Playtaste:active {
+    opacity: 50%;
+ }
+
+.CSlider {
+    width: 100%;
+    height: 80px;
+}
+
+.ESlider {
+    width: 100%;
+    height: 80px;
+}
+
+.FSlider {
+    width: 100%;
+    height: 80px;
+}
+ 
+.slider {
+    width: 100% ;
+    height: 10px;
+}
+
+#ThresholdContainer {
+    background: rgb(255, 116, 24);
+}
+
+#RatioContainer {
+    background: rgb(219, 101, 22);
+}
+
+#KneeContainer {
+    background: rgb(192, 88, 18);
+}
+
+#AttackContainer {
+    background: rgb(165, 75, 16);
+}
+
+#AttackContainer {
+    background: rgb(165, 75, 16);
+}
+
+#ReleaseContainer {
+    background: rgb(126, 58, 12);
+}
+
+#GainContainer {
+    background: rgb(39, 231, 22);
+}
+
+#PanContainer {
+    background: rgb(33, 192, 19);
+}
+
+#DelayContainer {
+    background: rgb(29, 165, 16);
+}
+
+#DisContainer {
+    background: rgb(23, 134, 13);
+}
+
+#FilterAuswahl {
+    font-size: 30px;
+}
+
+#ReverbAuswahl {
+    font-size: 30px;
+}
+
+#auswahlcontainer {
+    background:  rgb(13, 75, 8);
+    height: 50px;
+}
+
+#FreqContainer {
+    background: rgb(241, 22, 168);
+}
+
+#DetuneContainer {
+    background: rgb(206, 19, 144);
+}
+
+#QualContainer {
+    background: rgb(175, 16, 122);
+}
+
+#FGainContainer {
+    background: rgb(136, 13, 95);
+}
+
+#filterauswahlcontainer {
+    background:  rgb(105, 11, 74);
+    height: 50px;
+}
+
+#turnonbuttoncontainer {
+    background:  rgb(13, 75, 8);
+    padding: 0.5em; 
+}
